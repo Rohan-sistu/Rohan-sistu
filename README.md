@@ -54,6 +54,10 @@
 
 ### 📌 Featured Projects
 
+#### 🔹 [Retail Analytics & Customer Segmentation Dashboard](https://rohan-retail-dashboard.streamlit.app/) 🔴 *Live Demo*
+Interactive dashboard with RFM (Recency, Frequency, Monetary) customer segmentation, sales trends, and KPI tracking. [Source code →](https://github.com/Rohan-sistu/retail-analytics-dashboard)
+`Python` · `Pandas` · `Streamlit` · `Plotly`
+
 #### 🔹 [Python-Based Interactive ML Interpretability Dashboard](https://github.com/Rohan-sistu/ml-interpretability-thesis) *(Master Thesis)*
 Interactive dashboard using Plotly, Dash, and Streamlit applying SHAP & LIME to explain Logistic Regression and Random Forest predictions — validated with a controlled user study showing measurable gains in interpretability, task accuracy, and trust over static visualizations.
 `Python` · `Dash` · `SHAP` · `LIME` · `Streamlit`
@@ -97,6 +101,6 @@ Backend system in Java + MongoDB integrating SMS/email APIs for automated remind
 ### 🤝 Connect with Me
 
 <p align="left">
-  <a href="https://linkedin.com/in/www.linkedin.com/in/rohan-prasad-sistu-b804b6255"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/rohan-prasad-sistu-b804b6255"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="mailto:rohanchowdary780@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 </p>
