@@ -70,6 +70,22 @@ Interactive ML dashboard predicting employee attrition on the IBM HR Analytics d
 Content-based recommender using TF-IDF and cosine similarity over 5,000+ movies, deployed with Streamlit for interactive recommendations.
 `Python` · `Pandas` · `Scikit-learn` · `Streamlit`
 
+#### 🔹 [Explain Any Model](https://explain-any-model.streamlit.app/) 🔴 *Live Demo*
+Upload any tabular dataset and get instant interactive SHAP explanations — a generalized, reusable version of the thesis dashboard. [Source →](https://github.com/Rohan-sistu/explain-any-model)
+`Python` · `SHAP` · `Scikit-learn` · `Streamlit`
+
+#### 🔹 [Bias Auditor for Hiring Models](https://bias-auditor-hiring.streamlit.app/) 🔴 *Live Demo*
+Detects proxy discrimination in hiring models via SHAP — flags fairness violations even when the protected attribute is never used as a model input. [Source →](https://github.com/Rohan-sistu/bias-auditor-hiring)
+`Python` · `SHAP` · `Fairness` · `Streamlit`
+
+#### 🔹 [Real-Time KPI Pipeline](https://realtime-kpi-pipeline.streamlit.app/) 🔴 *Live Demo*
+An ingest → store → visualize pipeline with live-updating sales KPIs. [Source →](https://github.com/Rohan-sistu/realtime-kpi-pipeline)
+`Python` · `SQLite` · `Streamlit`
+
+#### 🔹 [Fraud Detection with SHAP](https://fraud-detection-api1.streamlit.app/) 🔴 *Live Demo*
+Fraud classifier deployed as a FastAPI service, with every prediction explained via SHAP. [Source →](https://github.com/Rohan-sistu/fraud-detection-api)
+`Python` · `FastAPI` · `SHAP` · `Scikit-learn`
+
 #### 🔹 [Automated Infant Vaccination Reminder](https://github.com/Rohan-sistu/vaccination-reminder-system)
 Backend system in Java + MongoDB integrating SMS/email APIs for automated reminders — improved vaccination adherence by 20%.
 `Java` · `MongoDB`
