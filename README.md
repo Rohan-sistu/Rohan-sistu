@@ -1,20 +1,16 @@
 <h1 align="center">Hi, I'm Rohan Prasad Sistu 👋</h1>
-<h3 align="center">Data Analyst & ML Enthusiast | Making Machine Learning Explainable & Interactive</h3>
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=1000&color=2F80ED&center=true&vCenter=true&width=600&lines=Building+interactive+ML+dashboards;Making+black-box+models+explainable;M.Sc.+Data+Science+%40+UE+Germany;SHAP+%2B+LIME+%2B+Streamlit+%2B+Dash" alt="Typing SVG" />
-</p>
+<h3 align="center">Data Analyst | SQL · Python · Dashboards | M.Sc. Data Science</h3>
 
 ---
 
 ### 🚀 About Me
 
-- 🎓 M.Sc. Data Science, **University of Europe for Applied Sciences, Germany** (2026)
-- 🔬 My master thesis: an interactive dashboard applying **SHAP & LIME** to make ML models explainable — validated with a real user study
-- 💼 Data Analyst with a strong base in **machine learning, data visualization, and Python-based analytics**
-- 🛠️ I build interactive dashboards that turn complex models into decisions people can actually trust
-- 📫 Reach me at **rohanchowdary780@gmail.com**
-- 📍 Based in Halle (Saale), Germany
+- 🎓 M.Sc. Data Science, **University of Europe for Applied Sciences, Germany** (2026, grade 2.0)
+- 📊 Looking for a **Data Analyst / BI Analyst** role in Germany
+- 🔎 I clean messy data, answer business questions with **SQL and Python**, test whether a difference is real, and finish with a recommendation
+- 🔬 Master's thesis: interactive vs. static explanations of ML models (**SHAP, LIME**), tested in a small user study
+- 🌍 English (fluent) · German (A2, improving)
+- 📫 **rohanchowdary780@gmail.com** · 📍 Halle (Saale), Germany
 
 ---
 
@@ -24,8 +20,6 @@
 <p align="left">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white" />
-  <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white" />
 </p>
 
 **Libraries & Frameworks**
@@ -43,8 +37,7 @@
   <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white" />
   <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
 </p>
 
 **Concepts**
@@ -54,41 +47,31 @@
 
 ### 📌 Featured Projects
 
+#### 🔹 [Retail Sales SQL Analysis](https://github.com/Rohan-sistu/retail-analytics-sql-project)
+Messy retail data cleaned into a 7-table PostgreSQL schema, then 30 business queries (CTEs, window functions) and written recommendations. The top 10% of customers bring in 41.7% of revenue; 11–20% discounts cut gross margin from 48.7% to 38.6% with no bigger baskets.
+`PostgreSQL` · `SQL` · `Python`
+
+#### 🔹 [Employee Attrition Analytics](https://github.com/Rohan-sistu/employee-attrition-dashboard)
+Who leaves, and is the difference real? Attrition by group with chi-square tests, and a risk model evaluated against a do-nothing baseline. Overtime staff leave at 30.5% vs. 10.4%; the model flags 63% of leavers (ROC-AUC 0.81).
+`Pandas` · `SciPy` · `Scikit-learn` · `Streamlit`
+
 #### 🔹 [Retail Analytics & Customer Segmentation Dashboard](https://rohan-retail-dashboard.streamlit.app/) 🔴 *Live Demo*
-Interactive dashboard with RFM (Recency, Frequency, Monetary) customer segmentation, sales trends, and KPI tracking. [Source code →](https://github.com/Rohan-sistu/retail-analytics-dashboard)
+Interactive KPI dashboard with RFM (Recency, Frequency, Monetary) customer segmentation. [Source code →](https://github.com/Rohan-sistu/Retail_analytics_dashboard)
 `Python` · `Pandas` · `Streamlit` · `Plotly`
 
-#### 🔹 [Python-Based Interactive ML Interpretability Dashboard](https://github.com/Rohan-sistu/ml-interpretability-thesis) *(Master Thesis)*
-Interactive dashboard using Plotly, Dash, and Streamlit applying SHAP & LIME to explain Logistic Regression and Random Forest predictions — validated with a controlled user study showing measurable gains in interpretability, task accuracy, and trust over static visualizations.
+#### 🔹 [Interactive vs. Static ML Explanations](https://github.com/Rohan-sistu/-ml-interpretability-thesis) *(Master's thesis)*
+Parallel static and interactive SHAP/LIME explanation dashboards, compared in a small user study.
 `Python` · `Dash` · `SHAP` · `LIME` · `Streamlit`
 
-#### 🔹 [Employee Attrition Analytics Dashboard](https://github.com/Rohan-sistu/employee-attrition-dashboard)
-Interactive ML dashboard predicting employee attrition on the IBM HR Analytics dataset — the applied companion to the thesis above.
-`Python` · `Scikit-learn` · `Streamlit` · `Plotly`
+<details>
+<summary><b>More projects</b></summary>
 
-#### 🔹 [Movie Recommendation System](https://github.com/Rohan-sistu/movie-recommendation-system)
-Content-based recommender using TF-IDF and cosine similarity over 5,000+ movies, deployed with Streamlit for interactive recommendations.
-`Python` · `Pandas` · `Scikit-learn` · `Streamlit`
+- [Bias Auditor for Hiring Models](https://bias-auditor-hiring.streamlit.app/): SHAP-based check for proxy discrimination ([source](https://github.com/Rohan-sistu/bias-auditor-hiring))
+- [Real-Time KPI Pipeline](https://realtime-kpi-pipeline.streamlit.app/): ingest → SQLite → live dashboard ([source](https://github.com/Rohan-sistu/realtime-kpi-pipeline))
+- [Explain Any Model](https://explain-any-model.streamlit.app/): upload a dataset, get SHAP explanations ([source](https://github.com/Rohan-sistu/explain-any-model))
+- [Fraud Detection with SHAP](https://fraud-detection-api1.streamlit.app/): FastAPI classifier with explanations ([source](https://github.com/Rohan-sistu/fraud-detection-api))
 
-#### 🔹 [Explain Any Model](https://explain-any-model.streamlit.app/) 🔴 *Live Demo*
-Upload any tabular dataset and get instant interactive SHAP explanations — a generalized, reusable version of the thesis dashboard. [Source →](https://github.com/Rohan-sistu/explain-any-model)
-`Python` · `SHAP` · `Scikit-learn` · `Streamlit`
-
-#### 🔹 [Bias Auditor for Hiring Models](https://bias-auditor-hiring.streamlit.app/) 🔴 *Live Demo*
-Detects proxy discrimination in hiring models via SHAP — flags fairness violations even when the protected attribute is never used as a model input. [Source →](https://github.com/Rohan-sistu/bias-auditor-hiring)
-`Python` · `SHAP` · `Fairness` · `Streamlit`
-
-#### 🔹 [Real-Time KPI Pipeline](https://realtime-kpi-pipeline.streamlit.app/) 🔴 *Live Demo*
-An ingest → store → visualize pipeline with live-updating sales KPIs. [Source →](https://github.com/Rohan-sistu/realtime-kpi-pipeline)
-`Python` · `SQLite` · `Streamlit`
-
-#### 🔹 [Fraud Detection with SHAP](https://fraud-detection-api1.streamlit.app/) 🔴 *Live Demo*
-Fraud classifier deployed as a FastAPI service, with every prediction explained via SHAP. [Source →](https://github.com/Rohan-sistu/fraud-detection-api)
-`Python` · `FastAPI` · `SHAP` · `Scikit-learn`
-
-#### 🔹 [Automated Infant Vaccination Reminder](https://github.com/Rohan-sistu/vaccination-reminder-system)
-Backend system in Java + MongoDB integrating SMS/email APIs for automated reminders — improved vaccination adherence by 20%.
-`Java` · `MongoDB`
+</details>
 
 ---
 
