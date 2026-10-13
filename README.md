@@ -51,8 +51,8 @@
 Messy retail data cleaned into a 7-table PostgreSQL schema, then 30 business queries (CTEs, window functions) and written recommendations. The top 10% of customers bring in 41.7% of revenue; 11–20% discounts cut gross margin from 48.7% to 38.6% with no bigger baskets.
 `PostgreSQL` · `SQL` · `Python`
 
-#### 🔹 [Employee Attrition Analytics](https://github.com/Rohan-sistu/employee-attrition-dashboard)
-Who leaves, and is the difference real? Attrition by group with chi-square tests, and a risk model evaluated against a do-nothing baseline. Overtime staff leave at 30.5% vs. 10.4%; the model flags 63% of leavers (ROC-AUC 0.81).
+#### 🔹 [Employee Attrition Analytics](https://rohan-attrition-analytics.streamlit.app/) 🔴 *Live Demo*
+Who leaves, and is the difference real? Attrition by group with chi-square tests, and a risk model evaluated against a do-nothing baseline. Overtime staff leave at 30.5% vs. 10.4%; the model flags 63% of leavers (ROC-AUC 0.81). [Source code →](https://github.com/Rohan-sistu/employee-attrition-dashboard)
 `Pandas` · `SciPy` · `Scikit-learn` · `Streamlit`
 
 #### 🔹 [Retail Analytics & Customer Segmentation Dashboard](https://rohan-retail-dashboard.streamlit.app/) 🔴 *Live Demo*
