@@ -34,6 +34,7 @@
 
 **Visualization & Data**
 <p align="left">
+  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
   <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white" />
   <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge" />
@@ -41,7 +42,7 @@
 </p>
 
 **Concepts**
-`EDA` · `Feature Engineering` · `Explainable AI (SHAP, LIME)` · `Predictive Modeling`
+`EDA` · `Data Modelling (star schema)` · `Feature Engineering` · `Explainable AI (SHAP, LIME)` · `Predictive Modeling`
 
 ---
 
@@ -50,6 +51,10 @@
 #### 🔹 [Retail Sales SQL Analysis](https://github.com/Rohan-sistu/retail-analytics-sql-project)
 Messy retail data cleaned into a 7-table PostgreSQL schema, then 30 business queries (CTEs, window functions) and written recommendations. The top 10% of customers bring in 41.7% of revenue; 11–20% discounts cut gross margin from 48.7% to 38.6% with no bigger baskets.
 `PostgreSQL` · `SQL` · `Python`
+
+#### 🔹 [Food-Service Sales & Margin Dashboard](https://github.com/Rohan-sistu/powerbi-foodservice-sales) *(Power BI)*
+Four-page Power BI report for a wholesaler: messy ERP exports cleaned in Power Query, a star-schema model and 25 DAX measures. 10%+ discounts cut margin from 30% to 21% without bigger orders; 70 customers inactive for 90+ days; €993k overdue.
+`Power BI` · `Power Query` · `DAX`
 
 #### 🔹 [Employee Attrition Analytics](https://rohan-attrition-analytics.streamlit.app/) 🔴 *Live Demo*
 Who leaves, and is the difference real? Attrition by group with chi-square tests, and a risk model evaluated against a do-nothing baseline. Overtime staff leave at 30.5% vs. 10.4%; the model flags 63% of leavers (ROC-AUC 0.81). [Source code →](https://github.com/Rohan-sistu/employee-attrition-dashboard)
@@ -90,6 +95,7 @@ Parallel static and interactive SHAP/LIME explanation dashboards, compared in a 
 
 ### 🎓 Certifications
 
+- Mayerfeld Practicum Program® – Data Analysis, with certificate (2026)
 - Applied Data Science with Python — IBM (2024)
 - Python for Data Science — IBM (2024)
 - Data Visualization with Python — IBM (2024)
